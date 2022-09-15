@@ -4,16 +4,9 @@ class MainClass
 {
 	public static void Main(string[] args)
 	{
+		double result = 10 % 3;
+        Console.WriteLine(result);
 
-		string MyName = "Sergey";
-		byte MyAge = 27;
-		bool HaveIApet = true;
-		double MyShoeSize = 42.5;
-
-		Console.WriteLine("My name is " + MyName);
-		Console.WriteLine("MyAge " + MyAge);
-		Console.WriteLine("Do I have a pet? " + HaveIApet);
-		Console.WriteLine("My shoe size is " + MyShoeSize);
 
 	}
 }
